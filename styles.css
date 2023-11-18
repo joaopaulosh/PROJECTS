@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    /* Altura / vh - altura */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://imgmd.net/images/v1/guia/1612780/praia-de-carapanari");
+    /*  Imagem de fundo 1600x900  */
+    background-size: 100%;
+
+}
+
+.caixa-maior {
+    background-color: #000000;
+    /*  Troca cor de fundo  */
+    width: 95%;
+    /*  Largura  */
+    max-width: 420px;
+    /*  Largura máxima  */
+    border-radius: 25px;
+    /*  Borda  */
+    opacity: 0.8;
+    /*  Opacidade  */
+    padding: 20px;
+    /*  Espaçamento  */
+}
+
+.input-cidade {
+    border: none;
+    /*  Borda do elemento */
+    outline: none;
+    /*  borda quando seleciona o elemento  */
+    padding: 10px;
+    /*  Espaçamento interno  */
+    border-radius: 25px;
+    /*  arredonda as bordas  */
+    font-size: 18px;
+    /*  Tamanho da fonte  */
+    background-color: #7c7c7c2b;
+    /*  Cor de fundo  */
+    color: #ffffff;
+    /*  Cor da fonte  */
+    width: calc(100% - 70px);
+    /*  Largura  */
+}
+
+.botao-busca {
+    border: none;
+    /*  Borda do elemento  */
+    outline: none;
+    /*  borda quando seleciona o elemento  */
+    padding: 10px;
+    /*  Espaçamento interno  */
+    border-radius: 50px;
+    /*  arredonda as bordas  */
+    background-color: #7c7c7c2b;
+    /*  Cor de fundo  */
+    float: right;
+    /*  Flutua para a direita  */
+    cursor: pointer;
+    /*  Muda o cursor  */
+}
+
+.img-busca {
+    width: 20px;
+}
+
+.caixa-media {
+    margin-top: 30px;
+    /*  Espaçamento  */
+}
+
+.cidade {
+    color: #ffffff;
+    /*  Cor da fonte  */
+    font-size: 28px;
+    /*  Tamanho da fonte  */
+    font-weight: 300;
+    /*  Peso da fonte  */
+}
+
+.temp {
+    font-size: 20px;
+    /*  Tamanho da fonte  */
+    color: #ffffff;
+    /*  Cor da fonte  */
+}
+
+.caixa-menor {
+    display: flex;
+    /*  Alinha os elementos em linha  */
+    align-items: center;
+    /*  Alinha os elementos no centro  */
+    margin-top: 20px;
+    /*  Espaçamento  */
+}
+
+.texto-previsao {
+    color: #ffffff;
+    /*  Cor da fonte  */
+    margin-left: 20px;
+    /*  Espaçamento  */
+   text-transform: capitalize;
+    /*  Deixa a primeira letra maiúscula  */
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+}
